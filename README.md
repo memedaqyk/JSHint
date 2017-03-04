@@ -47,8 +47,9 @@ JS的错误检查工具有很多如：JSLint，JSHint和ESLint...
 
 ## 安装JSHint
 请先安装好NodeJS，然后在终端命令行中输入:
-` npm install -g jshint`
-
+```nodejs
+npm install -g jshint
+```
 > 注意：如果你是Windows用户，可以安装Git for windows，其附带的Git Bash可以运行大多数的linux命令。
 
 ## 安装与配置JSHint Gutter
@@ -56,13 +57,13 @@ JSHint Gutter安装非常简单，使用Sublime命令面板的PackageControl:Ins
 安装完成后，在Sublime的Package Settings里找到JSHint Gutter，选择Set Plugin Options：
 <img src="http://ojlmcfp94.bkt.clouddn.com/JSHint.png" alt="aa">
 设置NodeJS执行文件所在的路径（node_path），并将lint_on_save（文件保存时检查）选项打开:
-```
+```json
 "osx": "/usr/local/bin/node”,
 "lint_on_load": true,
 ```
 ## 设置.jshintrc
 在项目根目录或用户目录下新建一个文件：.jshintrc（windows用户应该在文件管理器里面创建.jshintrc.文件，然后它会自动改名为.jshintrc），在此文件里填写你的检查规则，以下是一个典型的.jshintrc：     
-```
+```json
 {
   "curly": true,
   "eqeqeq": true,
@@ -74,7 +75,7 @@ JSHint Gutter安装非常简单，使用Sublime命令面板的PackageControl:Ins
   "unused": true,
   "node": true
 }
-  ```
+```
 
 - 第二行：curly 表示所有的代码块必须使用大括号
 - 第三行：eqeqeq 表示判断相等时，必须使用 ===
