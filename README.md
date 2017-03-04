@@ -50,8 +50,8 @@ JS的错误检查工具有很多如：JSLint，JSHint和ESLint...
 ` npm install -g jshint`
 
 > 注意：如果你是Windows用户，可以安装Git for windows，其附带的Git Bash可以运行大多数的linux命令。
-## 安装与配置JSHint Gutter
 
+## 安装与配置JSHint Gutter
 JSHint Gutter安装非常简单，使用Sublime命令面板的PackageControl:Install Package，搜索安装即可.(不会的自己百度或Google)
 安装完成后，在Sublime的Package Settings里找到JSHint Gutter，选择Set Plugin Options：
 <img src="http://ojlmcfp94.bkt.clouddn.com/JSHint.png" alt="aa">
