@@ -4,7 +4,9 @@ SublieText3本身没有很完备的错误检查机制，写JavaScript难免经�
 
 ## 比较
 JS的错误检查工具有很多如：JSLint，JSHint和ESLint...
+
 ----
+
 1.JSLint
 **优点**
 - 配置是老道已经定好的，开箱即用。
@@ -13,7 +15,9 @@ JS的错误检查工具有很多如：JSLint，JSHint和ESLint...
 - 规范严格，凡是不符合老道所认为的好的风格的，都会有警告(这一项就看你是否完全认同老道了)
 - 扩展性差
 - 无法根据错误定位到对应的规则
+
 ----
+
 2.JSHint
 **优点**
 - 有了很多参数可以配置
@@ -23,7 +27,9 @@ JS的错误检查工具有很多如：JSLint，JSHint和ESLint...
 **不足**
 - 不支持自定义规则
 - 无法根据错误定位到对应的规则
+
 ----
+
 3.ESLint
 **优点**
 - 默认规则里面包含了JSLint和JSHint的规则，易于迁移
@@ -36,10 +42,13 @@ JS的错误检查工具有很多如：JSLint，JSHint和ESLint...
 **不足**
 - 需要进行一些自定义配置(因为太灵活了嘛，不过文档是很详细的)
 - 慢 (它比其他两个都要慢)
+
 ----
+
 ## 安装JSHint
 请先安装好NodeJS，然后在终端命令行中输入:
 ` npm install -g jshint`
+
 > 注意：如果你是Windows用户，可以安装Git for windows，其附带的Git Bash可以运行大多数的linux命令。
 ## 安装与配置JSHint Gutter
 
